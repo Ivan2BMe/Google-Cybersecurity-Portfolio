@@ -3,7 +3,7 @@
 
 # Assign the file name and the list of IP addresses that need to be removed[cite: 1]
 import_file = "allow_list.txt"
-remove_list = ["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"][cite: 1]
+remove_list = ["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"]
 
 # 1. Open the file containing the allow list in read mode[cite: 1]
 with open(import_file, "r") as file:
