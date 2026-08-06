@@ -16,7 +16,7 @@ import_file = "allow_list.txt"
 remove_list = ["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"]
 
 with open(import_file, "r") as file:
-    # File handling logic begins
+#File handling logic begins
 
 ### 2. Read File Contents
     
