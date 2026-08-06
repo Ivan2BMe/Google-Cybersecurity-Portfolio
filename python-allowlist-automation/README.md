@@ -46,6 +46,6 @@ ip_addresses = " ".join(ip_addresses)
 with open(import_file, "w") as file:
     file.write(ip_addresses)
 
-Summary
+## Summary
 
 By leveraging key Python functions (.read(), .split(), .remove(), .join(), and .write()) alongside file-handling techniques, this algorithm automates the maintenance of access control lists and ensures unauthorized IP addresses are efficiently purged from restricted server access files.  
