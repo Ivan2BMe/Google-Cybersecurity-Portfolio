@@ -1,14 +1,14 @@
-## File Parsing Algorithm for Allow List Updates in Python
+# File Parsing Algorithm for Allow List Updates in Python
 
-Project Overview
+## Project Overview
 
 This project demonstrates the implementation of a Python algorithm to automate access control updates. The script parses an allow_list.txt file containing authorized IP addresses and removes IP addresses specified in a separate removal list (remove_list).  
 
-Scenario
+## Scenario
 
 As a security professional, I am responsible for managing access controls to restricted content. When employees or assets no longer require access, their IP addresses must be removed from the main allow list file to maintain strict access control measures. 
 
-Technical Breakdown & Implementation
+## Technical Breakdown & Implementation
 
 1. Open the Allow List File to access the list of authorized IP addresses, the script uses the open() function within a with statement to safely open the target file in read mode ("r"):
 
